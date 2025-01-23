@@ -16,7 +16,6 @@ from scrapy.utils.project import get_project_settings
 
 import scrapy
 from ..items import GenericItem
-from scrapy_rabbitmq.spiders.rabbitmq_spider import RabbitmqSpider
 
 logger = logging.getLogger(__name__)
 
